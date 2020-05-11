@@ -7,6 +7,7 @@ const SelectedBook = props => {
     }
     return (
         <div>
+            <h3>Details For:</h3>
             <p>Book Name: {props.book.name}</p>
             <p>Pages: {props.book.pages}</p>
         </div>
